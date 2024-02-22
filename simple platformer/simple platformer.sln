@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple platformer", "simple platformer\simple platformer.csproj", "{5677790F-65FB-4952-87CB-BA9A12BA86FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5677790F-65FB-4952-87CB-BA9A12BA86FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5677790F-65FB-4952-87CB-BA9A12BA86FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5677790F-65FB-4952-87CB-BA9A12BA86FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5677790F-65FB-4952-87CB-BA9A12BA86FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45EDC9F3-8951-4EA2-BD91-9452312B205B}
+	EndGlobalSection
+EndGlobal

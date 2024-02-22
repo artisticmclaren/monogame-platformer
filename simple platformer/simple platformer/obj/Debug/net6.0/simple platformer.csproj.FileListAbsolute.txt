@@ -1,0 +1,25 @@
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\simple platformer.exe
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\simple platformer.deps.json
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\simple platformer.runtimeconfig.json
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\simple platformer.dll
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\simple platformer.pdb
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\MonoGame.Framework.dll
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\obj\Debug\net6.0\simple platformer.csproj.AssemblyReference.cache
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\obj\Debug\net6.0\simple platformer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\obj\Debug\net6.0\simple platformer.AssemblyInfoInputs.cache
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\obj\Debug\net6.0\simple platformer.AssemblyInfo.cs
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\obj\Debug\net6.0\simple platformer.csproj.CoreCompileInputs.cache
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\obj\Debug\net6.0\simple platformer.csproj.CopyComplete
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\obj\Debug\net6.0\simple platformer.dll
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\obj\Debug\net6.0\refint\simple platformer.dll
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\obj\Debug\net6.0\simple platformer.pdb
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\obj\Debug\net6.0\simple platformer.genruntimeconfig.cache
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\obj\Debug\net6.0\ref\simple platformer.dll
