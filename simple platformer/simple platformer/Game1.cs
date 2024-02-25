@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using System.Collections.Generic;
+using simple_platformer.UI;
 
 namespace simple_platformer
 {
@@ -13,11 +13,15 @@ namespace simple_platformer
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+
+        // new cool variables
         int wWidth=1280;
         int wHeight=720;
 
         Entity player = new Entity("block",new Vector2(1280/2,720/2),0.5f,Color.White,1);
         Entity sky = new Entity("sky",new Vector2(1280/2,720/2),0f,Color.White,0);
+
+        ToggleElement pause = new ToggleElement(new Vector2(25, 25), "pause", "unpause");
 
         float gravity;
 
@@ -46,6 +50,10 @@ namespace simple_platformer
 
             player.texture = Content.Load<Texture2D>(player.textureName);
             sky.texture = Content.Load<Texture2D>(sky.textureName);
+
+
+            pause.toggleOn = Content.Load<Texture2D>(pause.toggleOnName);
+            pause.toggleOff = Content.Load<Texture2D>(pause.toggleOffName);
         }
 
         protected override void Update(GameTime gameTime)
@@ -68,13 +76,12 @@ namespace simple_platformer
             {
                 player.velocity.Y -= .7f;
             }
-
-            if (player.position.Y+player.texture.Height < 720)
-            {
-                player.velocity.Y -= gravity;
-            }
+            
+            player.velocity.Y -= gravity;
 
             player.Update();
+            pause.Update();
+
             base.Update(gameTime);
         }
 
@@ -86,56 +93,11 @@ namespace simple_platformer
             _spriteBatch.Draw(sky.texture, sky.position, null, sky.color, 0f, sky.GetOrigin(), new Vector2(1.2f, 1), SpriteEffects.None, sky.depth);
             _spriteBatch.Draw(player.texture,player.position,null, player.color,0f,player.GetOrigin(),Vector2.One,SpriteEffects.None,player.depth);
 
+            _spriteBatch.Draw(pause.GetTexture(), pause.position, null, Color.White, 0f, pause.GetOrigin(), pause.scale, SpriteEffects.None, 0f);
+
             _spriteBatch.End();
 
             base.Draw(gameTime);
-        }
-    }
-
-    public struct Entity // basic enough entity system for now
-    {
-        public Entity(string _textureName,Vector2 _position,float _friction,Color _color,float _depth)
-        {
-            textureName = _textureName;
-            position = _position;
-            color = _color;
-            depth = _depth;
-            friction = _friction;
-        }
-
-        public string textureName;
-        public Vector2 position;
-        public Vector2 velocity;
-        public Texture2D texture;
-        public Color color;
-        public float depth;
-        public float friction;
-
-        public Vector2 GetOrigin()
-        {
-            Vector2 output=position;
-
-            if (texture == null) return output;
-            output = new Vector2(texture.Width/2,texture.Height/2);
-
-            return output;
-        }
-
-        public void Update()
-        {
-            if (velocity.X > 0) 
-            { 
-                if (velocity.X-friction<0) velocity.X = 0;
-                velocity.X -= friction; 
-            }
-            else if (velocity.X<0)
-            {
-                if (velocity.X + friction > 0) velocity.X = 0;
-                velocity.X += friction;
-            }
-
-            position.X += velocity.X;
-            position.Y += velocity.Y;
         }
     }
 }

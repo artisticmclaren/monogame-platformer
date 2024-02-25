@@ -25,3 +25,5 @@ C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\obj\Debug\
 C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\obj\Debug\net6.0\ref\simple platformer.dll
 C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\Content\block.xnb
 C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\Content\sky.xnb
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\Content\pause.xnb
+C:\Users\elija\Desktop\vsprojects\simple platformer\simple platformer\bin\Debug\net6.0\Content\unpause.xnb
